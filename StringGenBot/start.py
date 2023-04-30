@@ -15,17 +15,17 @@ async def start(bot: Client, msg: Message):
         text=f"""Hᴇʏ {msg.from_user.mention},
 
 Tʜɪs ɪs {me2},
-Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ ʙʏ ᴛᴇᴀᴍ ᴀɢᴏʀᴀ.
 
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [ᴘᴜʀᴘʟᴇ ᴀʀᴍʏ ɢɪʀʟ](tg://user?id={OWNER_ID}) !""",
+Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [ᴀɢᴏʀᴀ ᴡᴏʀʟᴅ](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://t.me/kimjikoinsupport"),
-                    InlineKeyboardButton("🥀 ᴘᴜʀᴘʟᴇ ᴀʀᴍʏ ɢɪʀʟ 🥀", user_id=OWNER_ID)
+                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://t.me/teamagora"),
+                    InlineKeyboardButton("🥀 ᴀɢᴏʀᴀ 🥀", user_id=OWNER_ID)
                 ]
             ]
         ),
